@@ -1,0 +1,72 @@
+{
+  "info": {
+    "_postman_id": "d6447fe5-8264-4516-8656-e78d28c6c5a0",
+    "name": "posts",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57888954",
+    "_collection_link": "https://go.postman.co/collection/57888954-d6447fe5-8264-4516-8656-e78d28c6c5a0?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "delete",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "create",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{  \r\n    \"ProductID\": 1,\r\n            \"QuantitySold\": 1500,\r\n            \"SaleDate\": \"2026-09-23\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3500/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3500",
+          "path": [
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get sales id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getPostsCommentCount",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
